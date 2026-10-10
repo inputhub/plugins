@@ -1,0 +1,11 @@
+# The ring is called `media`. Give a control the action of opening it.
+[[rings]]
+name = "media"
+segments = [
+    { label = "Play / Pause", icon = "play", keys = "play_pause" },
+    { label = "Next", icon = "next", keys = "next_track" },
+    { label = "Volume up", icon = "volume", keys = "volume_up" },
+    { label = "Mute", icon = "mute", keys = "mute" },
+    { label = "Volume down", icon = "volume", keys = "volume_down" },
+    { label = "Previous", icon = "previous", keys = "previous_track" },
+]
