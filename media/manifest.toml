@@ -1,7 +1,7 @@
 id = "media"
 name = "Media"
 author = "InputHub"
-version = "0.1.0"
+version = "0.2.0"
 description = "A ring for what is playing: play and pause, next and previous, volume and mute."
 license = "MIT"
 min_inputhub = "0.1.0"
