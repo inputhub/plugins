@@ -1,0 +1,96 @@
+# Razer Basilisk X HyperSpeed.
+#
+# `driver = "plugin"`: its buttons are taken through the kernel, as any
+# mouse's are, and everything below is asked of the code in `plugin.wasm`,
+# which is handed the device `usb` names and nothing else.
+name = "Razer Basilisk X HyperSpeed"
+driver = "plugin"
+match_names = ["Basilisk X HyperSpeed"]
+usb = "1532:0083"
+battery = true
+
+# The settings, in the order the code knows them by: `get(0)` is the first.
+
+[[settings]]
+id = "pointer-speed"
+label = "Pointer speed"
+description = "How far the pointer travels when you move the mouse."
+group = "Point, scroll, press"
+kind = "range"
+min = 100
+max = 16000
+step = 100
+unit = "DPI"
+
+[[settings]]
+id = "report-rate"
+label = "Report rate"
+description = "How often the mouse says where it is. Higher is smoother and uses more battery."
+group = "Point, scroll, press"
+kind = "choice"
+options = ["125 Hz", "500 Hz", "1000 Hz"]
+
+[[settings]]
+id = "dpi-steps"
+label = "Steps"
+description = "How many speeds the button behind the wheel goes through."
+group = "DPI button"
+kind = "range"
+min = 1
+max = 5
+step = 1
+
+[[settings]]
+id = "dpi-step-1"
+label = "Step 1"
+description = "The pointer speed at this step."
+group = "DPI button"
+kind = "range"
+min = 100
+max = 16000
+step = 100
+unit = "DPI"
+
+[[settings]]
+id = "dpi-step-2"
+label = "Step 2"
+description = "The pointer speed at this step."
+group = "DPI button"
+kind = "range"
+min = 100
+max = 16000
+step = 100
+unit = "DPI"
+
+[[settings]]
+id = "dpi-step-3"
+label = "Step 3"
+description = "The pointer speed at this step."
+group = "DPI button"
+kind = "range"
+min = 100
+max = 16000
+step = 100
+unit = "DPI"
+
+[[settings]]
+id = "dpi-step-4"
+label = "Step 4"
+description = "The pointer speed at this step."
+group = "DPI button"
+kind = "range"
+min = 100
+max = 16000
+step = 100
+unit = "DPI"
+
+[[settings]]
+id = "dpi-step-5"
+label = "Step 5"
+description = "The pointer speed at this step."
+group = "DPI button"
+kind = "range"
+min = 100
+max = 16000
+step = 100
+unit = "DPI"

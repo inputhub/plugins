@@ -1,0 +1,9 @@
+id = "basilisk-x-hyperspeed"
+name = "Razer Basilisk X HyperSpeed"
+author = "InputHub"
+version = "0.1.0"
+description = "The Razer Basilisk X HyperSpeed: its buttons, pointer speed, the speeds its DPI button goes through, report rate and battery."
+license = "MIT"
+min_inputhub = "0.1.0"
+# It describes a device and talks to it: that one device and no other.
+permissions = ["device"]

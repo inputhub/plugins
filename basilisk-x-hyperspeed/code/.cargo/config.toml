@@ -1,0 +1,5 @@
+# Built outside the plugin's directory, so that what is installed from it
+# is the plugin and its source, and nothing that was built on the way.
+[build]
+target = "wasm32-unknown-unknown"
+target-dir = "../../.target"

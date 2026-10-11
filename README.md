@@ -12,6 +12,7 @@ inputhub-ctl plugin install media
 | Plugin | What it brings |
 | --- | --- |
 | [media](media) | a ring for what is playing: play and pause, next and previous, volume and mute |
+| [basilisk-x-hyperspeed](basilisk-x-hyperspeed) | the Razer Basilisk X HyperSpeed: buttons, pointer speed, DPI button steps, report rate, battery; the example of a plugin that brings a device |
 
 They are also examples: a plugin of yours is laid out the same way. How one
 is made and listed is in the registry's
