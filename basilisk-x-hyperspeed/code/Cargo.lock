@@ -5,3 +5,11 @@ version = 4
 [[package]]
 name = "basilisk-x-hyperspeed"
 version = "0.1.0"
+dependencies = [
+ "inputhub-plugin",
+]
+
+[[package]]
+name = "inputhub-plugin"
+version = "0.1.0"
+source = "git+https://github.com/inputhub/inputhub#ac8912d8c7692dc47c18670580534b57b1936869"

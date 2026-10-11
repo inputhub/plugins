@@ -8,6 +8,10 @@ publish = false
 [lib]
 crate-type = ["cdylib"]
 
+[dependencies]
+# What crosses to InputHub and back, so that none of the code here is unsafe.
+inputhub-plugin = { git = "https://github.com/inputhub/inputhub" }
+
 [profile.release]
 opt-level = "s"
 lto = true
